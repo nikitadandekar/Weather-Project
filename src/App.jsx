@@ -4,14 +4,15 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Left from "./Components/Left";
 import Right from "./Components/Right";
+import Search from "./Components/Search";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [data, setData] = useState(false);
 
   return (
     <>
       <div className="flex">
-        <Left />
+        {data ? <Search setData={setData} /> : <Left setData={setData} />}
         <Right />
       </div>
     </>
