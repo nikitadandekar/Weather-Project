@@ -9,7 +9,7 @@ function Right() {
     <div>
       <div className="Container2 bg-slate-900 w-screen h-screen">
         <div className="flex justify-start gap-6 pl-80 pt-40 ">
-          <div className="w-36 h-56 bg-indigo-950">
+          <div className="w-36 h-60 bg-indigo-950">
             <h1 className="text-slate-300 text-center pt-4">Tomorrow</h1>
             <img src={Clear} alt="" className="w-24 h-20 relative left-5"></img>
             <img
@@ -19,11 +19,11 @@ function Right() {
             ></img>
             <div className="flex gap-3 pl-8 ">
               <p className="text-slate-300">16°C</p>
-              <p>11°C</p>
+              <p className="text-slate-500 ">11°C</p>
             </div>
           </div>
 
-          <div className="w-36 h-56 bg-indigo-950">
+          <div className="w-36 h-60 bg-indigo-950">
             <h1 className="text-slate-300 text-center pt-4"> Sun, 7 Jun</h1>
             <img src={Clear} alt="" className="w-24 h-20 relative left-5"></img>
             <img
@@ -33,11 +33,11 @@ function Right() {
             ></img>
             <div className="flex gap-3 pl-8 ">
               <p className="text-slate-300">16°C</p>
-              <p>11°C</p>
+              <p className="text-slate-500 ">11°C</p>
             </div>
           </div>
 
-          <div className="w-36 h-56 bg-indigo-950">
+          <div className="w-36 h-60 bg-indigo-950">
             <h1 className="text-slate-300 text-center pt-4">Mon, 8 Jun</h1>
             <img src={Clear} alt="" className="w-24 h-20 relative left-5"></img>
             <img
@@ -47,11 +47,11 @@ function Right() {
             ></img>
             <div className="flex gap-3 pl-8 ">
               <p className="text-slate-300">16°C</p>
-              <p>11°C</p>
+              <p className="text-slate-500 ">11°C</p>
             </div>
           </div>
 
-          <div className="w-36 h-56 bg-indigo-950">
+          <div className="w-36 h-60 bg-indigo-950">
             <h1 className="text-slate-300 text-center pt-4"> Tue, 9 Jun</h1>
 
             <img
@@ -64,7 +64,7 @@ function Right() {
               <p className="text-slate-500 ">11°C</p>
             </div>
           </div>
-          <div className="w-36 h-56 bg-indigo-950">
+          <div className="w-36 h-60 bg-indigo-950">
             <h1 className="text-slate-300 text-center pt-4"> Wed,10 Jun</h1>
             <img
               src={LightRain}
